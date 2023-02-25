@@ -1,0 +1,31 @@
+{
+    "name": "@kotosha/autodiffgist",
+    "version": "0.1.0",
+    "description": "Create gists of staged changes from console with just one command 🚀",
+    "main": "index.js",
+    "bin": {
+        "autodiffgist": "./index.js"
+    },
+    "scripts": {
+        "format": "prettier --write ."
+    },
+    "keywords": [
+        "diff",
+        "gist",
+        "tool"
+    ],
+    "author": "Anton Subbotin",
+    "license": "ISC",
+    "publishConfig": {
+        "access": "public"
+    },
+    "dependencies": {
+        "arg": "5.0.2",
+        "chalk": "4.1.2",
+        "rimraf": "4.1.2",
+        "shelljs": "0.8.5"
+    },
+    "devDependencies": {
+        "prettier": "2.8.4"
+    }
+}
