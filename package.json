@@ -1,6 +1,6 @@
 {
     "name": "@kotosha/autodiffgist",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "Create gists of staged changes from console with just one command 🚀",
     "main": "index.js",
     "bin": {
@@ -15,6 +15,10 @@
         "tool"
     ],
     "author": "Anton Subbotin",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/kotosha-real/autodiffgist"
+    },
     "license": "ISC",
     "publishConfig": {
         "access": "public"
