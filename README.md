@@ -23,7 +23,7 @@ First, make sure that you have Github CLI installed and that you are logged in. 
 After that, install Autodiffgist globally:
 
 ```
-npm i autodiffgist -g
+npm i @kotosha/autodiffgist -g
 ```
 
 ### Usage
