@@ -138,7 +138,7 @@ stagedFiles.forEach(({ name, status }) => {
 
             break
         case 'M':
-            const diffFilePath = getFilePath(`${AUTODIFFGIST_TEMP_DIR}/${name}.diff`)
+            const diffFilePath = getFilePath(`${AUTODIFFGIST_TEMP_DIR}/${path.basename(name)}.diff`)
 
             shell.exec(`git diff --cached -U1000 ${name}| tail -n +6 > ${diffFilePath}`)
 

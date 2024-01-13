@@ -1,6 +1,6 @@
 {
     "name": "@kotosha/autodiffgist",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "description": "Create gists of staged changes from console with just one command 🚀",
     "main": "index.js",
     "bin": {
